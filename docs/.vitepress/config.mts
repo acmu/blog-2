@@ -2,10 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "MY 博客",
   base: '/blog-2/',
-  description: "A VitePress Site",
+  description: "前端，博客",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
