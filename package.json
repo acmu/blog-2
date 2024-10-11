@@ -1,5 +1,6 @@
 {
   "name": "blog-2",
+  "type": "module",
   "devDependencies": {
     "vitepress": "^1.4.0"
   },
